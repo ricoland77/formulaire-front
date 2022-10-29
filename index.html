@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- imports -->
+    <link rel="stylesheet" href="./Assets/css/reset.css" />
+    <link rel="stylesheet" href="./Assets/css/style.css" />
+    <script src="./Assets/js/main.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/axios/1.1.3/axios.min.js"></script>
+
+    <title>Formulaire</title>
+  </head>
+  <body>
+    <!-- formulaire -->
+    <div class="container">
+      <h1>Formulaire de contact</h1>
+      <form id="contact-form">
+        <input class="txt" type="text" placeholder="firstname" id="firstname" />
+        <input class="txt" type="text" placeholder="lastname" id="lastname" />
+        <input class="email" type="email" placeholder="email" id="email" />
+        <input class="txt" type="text" placeholder="subject" id="subject" />
+        <textarea
+          class="msg"
+          cols="30"
+          rows="10"
+          placeholder="Your message here…"
+          id="message"
+        ></textarea>
+        <input class="btn" type="submit" value="Envoyer le message" />
+      </form>
+    </div>
+  </body>
+</html>
